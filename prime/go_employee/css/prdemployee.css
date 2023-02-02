@@ -1,0 +1,297 @@
+.modal {
+  padding: 0 !important;
+}
+.modal .modal-dialog {
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  margin: 0;
+  padding-left: 10%;
+}
+.modal .modal-content {
+  height: 100%;
+  border: 0;
+  border-radius: 0;
+}
+.modal .modal-body {
+  overflow-y: auto;
+}
+
+.span-arrow{
+  color: #007EEC;
+}
+.btn-outline{
+  border-color:#007EEC ;
+  width: 187px;
+}
+.reportfake:hover{
+  color: red;
+ 
+}
+
+.fa-heart-o {
+  color: #007EEC;
+  cursor: pointer;
+  border: #007EEC;
+}
+
+.fa-heart {
+  color: #007EEC;
+  cursor: pointer;
+}
+.btn-heart{
+  border-color:#007EEC ;
+  
+}
+.btn-heart:Visited{
+  border-color:#3a3c3f ;
+  
+}
+
+
+.employee-img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10;
+  margin: 0 0 -20px;
+  padding: 3px;
+  border-radius: 4px;
+  background: #fff
+}
+.brdet{
+  padding: 2px;
+
+  
+}
+
+body{
+  background:#dcdcdc;    
+  }
+  .total-like-user-main a {
+      display: inline-block;
+      margin: 0 -17px 0 0;
+  }
+  .total-like {
+      border: 1px solid;
+      border-radius: 50px;
+      display: inline-block;
+      font-weight: 500;
+      height: 34px;
+      line-height: 33px;
+      padding: 0 13px;
+      vertical-align: top;
+  }
+  .restaurant-detailed-ratings-and-reviews hr {
+      margin: 0 -24px;
+  }
+  .graph-star-rating-header .star-rating {
+      font-size: 17px;
+  }
+  .progress {
+      background: #f2f4f8 none repeat scroll 0 0;
+      border-radius: 0;
+      height: 30px;
+  }
+  .rating-list {
+      display: inline-flex;
+      margin-bottom: 15px;
+      width: 100%;
+  }
+  .rating-list-left {
+      height: 16px;
+      line-height: 29px;
+      width: 10%;
+  }
+  .rating-list-center {
+      width: 80%;
+  }
+  .rating-list-right {
+      line-height: 29px;
+      text-align: right;
+      width: 10%;
+  }
+  .restaurant-slider-pics {
+      bottom: 0;
+      font-size: 12px;
+      left: 0;
+      z-index: 999;
+      padding: 0 10px;
+  }
+  .restaurant-slider-view-all {
+      bottom: 15px;
+      right: 15px;
+      z-index: 999;
+  }
+  .offer-dedicated-nav .nav-link.active,
+  .offer-dedicated-nav .nav-link:hover,
+  .offer-dedicated-nav .nav-link:focus {
+      border-color: #3868fb;
+      color: #3868fb;
+  }
+  .offer-dedicated-nav .nav-link {
+      border-bottom: 2px solid #fff;
+      color: #000000;
+      padding: 16px 0;
+      font-weight: 600;
+  }
+  .offer-dedicated-nav .nav-item {
+      margin: 0 37px 0 0;
+  }
+  .restaurant-detailed-action-btn {
+      margin-top: 12px;
+  }
+  .restaurant-detailed-header-right .btn-success {
+      border-radius: 3px;
+      height: 45px;
+      margin: -18px 0 18px;
+      min-width: 130px;
+      padding: 7px;
+  }
+  .text-black {
+      color: #000000;
+  }
+  .icon-overlap {
+      bottom: -23px;
+      font-size: 74px;
+      opacity: 0.23;
+      position: absolute;
+      right: -32px;
+  }
+  .menu-list img {
+      width: 41px;
+      height: 41px;
+      object-fit: cover;
+  }
+  .restaurant-detailed-header-left img {
+      width: 88px;
+      height: 88px;
+      border-radius: 3px;
+      object-fit: cover;
+      box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+  }
+  .reviews-members .media .mr-3 {
+      width: 56px;
+      height: 56px;
+      object-fit: cover;
+  }
+  .rounded-pill {
+      border-radius: 50rem!important;
+  }
+  .total-like-user {
+      border: 2px solid #fff;
+      height: 34px;
+      box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075)!important;
+      width: 34px;
+  }
+  .total-like-user-main a {
+      display: inline-block;
+      margin: 0 -17px 0 0;
+  }
+  .total-like {
+      border: 1px solid;
+      border-radius: 50px;
+      display: inline-block;
+      font-weight: 500;
+      height: 34px;
+      line-height: 33px;
+      padding: 0 13px;
+      vertical-align: top;
+  }
+  .restaurant-detailed-ratings-and-reviews hr {
+      margin: 0 -24px;
+  }
+  .graph-star-rating-header .star-rating {
+      font-size: 17px;
+  }
+  .progress {
+      background: #f2f4f8 none repeat scroll 0 0;
+      border-radius: 0;
+      height: 30px;
+  }
+  .rating-list {
+      display: inline-flex;
+      margin-bottom: 15px;
+      width: 100%;
+  }
+  .rating-list-left {
+      height: 16px;
+      line-height: 29px;
+      width: 10%;
+  }
+  .rating-list-center {
+      width: 80%;
+  }
+  .rating-list-right {
+      line-height: 29px;
+      text-align: right;
+      width: 10%;
+  }
+  .restaurant-slider-pics {
+      bottom: 0;
+      font-size: 12px;
+      left: 0;
+      z-index: 999;
+      padding: 0 10px;
+  }
+  .restaurant-slider-view-all {
+      bottom: 15px;
+      right: 15px;
+      z-index: 999;
+  }
+  
+  .progress {
+      background: #f2f4f8 none repeat scroll 0 0;
+      border-radius: 0;
+      height: 30px;
+  }
+  
+  
+  
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+  
+.card-box {
+    padding: 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 5px 10px #888888;
+  }
+ 

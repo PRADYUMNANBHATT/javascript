@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg-green {
+  background-color:#81B800;
+}
+.tx-red{
+    color: firebrick;
+}
+.tx-blue{
+    color:dodgerblue;
+}
+
+.tp-job-title{
+    color:#232323;
+    font-size:15px;
+    font-weight: bold;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tp-job-rate{
+    color:#656565;
+    font-size:12px;
+    font-weight: bold;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}
+
+.tp-job-level{
+    color:#7C7C7C;
+    font-size:13px;
+    font-weight: bold;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+.tp-job-time{
+    color:#7C7C7C;
+    font-size:13px;
+    font-weight: bold;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tp-job-text{
+    color:#202020;
+    font-size:14px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tp-job-proposal{
+    color:#7C7C7C;
+    font-size:14px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tp-job-proposal1{
+    color:#202020;
+    font-size:14px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tp-job-place{
+    color:#7C7C7C;
+    font-size:14px;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.tp-job-search{
+    width: 96%;
+
+}
+
+
+
