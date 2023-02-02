@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Twitter -->
+    <meta name="twitter:site" content="@goj0bbed" />
+    <meta name="twitter:creator" content="@goj0bbed" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gojobbed" />
+    <meta
+      name="twitter:description"
+      content="Gojobbed is india's largest market place to explore proffessional work force."
+    />
+    <meta name="twitter:image" content="https://www.gojobbed.com/index.html" />
+
+    <!-- Facebook -->
+    <meta property="og:url" content="https://www.gojobbed.com/index.html" />
+    <meta property="og:title" content="Gojobbed" />
+    <meta
+      property="og:description"
+      content="Gojobbed is india's largest market place to explore proffessional work force."
+    />
+
+    <meta property="og:image" content="https://www.gojobbed.com/index.html" />
+    <meta
+      property="og:image:secure_url"
+      content="https://www.gojobbed.com/index.html"
+    />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="600" />
+
+    <!-- Meta -->
+    <meta
+      name="description"
+      content="Gojobbed is india's largest market place to explore proffessional work force."
+    />
+    <meta name="freelancer" content="Gojobbed" />
+
+    <title>Gojobbed</title>
+
+    <!-- vendor css -->
+    <link
+      href="../lib/@fortawesome/fontawesome-free/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+
+    <!-- Bracket CSS -->
+    <link rel="stylesheet" href="../css/bracket.css" />
+    <link rel="stylesheet" href="../css/prdemployee.css" />
+    <link rel="stylesheet" href="../css/iconfont.css" />
+    <link
+      href="../lib/ion-rangeslider/css/ion.rangeSlider.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../lib/ion-rangeslider/css/ion.rangeSlider.skinModern.css"
+      rel="stylesheet"
+    />
+    <script type="text/javascript">
+      function cloneRow() {
+        var row = document.getElementById("rowToClone"); // find row to copy
+        var table = document.getElementById("tableToModify"); // find table to append to
+        var clone = row.cloneNode(true); // copy children too
+        clone.id = "newID"; // change id or other attributes/contents
+        table.appendChild(clone); // add new row to end of table
+      }
+      function deleteRow() {
+        document.getElementById("tableToModify").deleteRow(1);
+      }
+    </script>
+  </head>
+
+  <body>
+    <!-- ########## START: LEFT PANEL ########## -->
+    <div class="br-logo">
+      <a
+        href=""
+        style="
+          text-align: left;
+          font-size: 15px;
+          color: darkgray;
+          text-decoration-style: wavy;
+        "
+        >India's biggest work marketplace
+      </a>
+    </div>
+    <div class="br-sideleft sideleft-scrollbar">
+      <label class="sidebar-label pd-x-10 mg-t-20 op-3">Navigation</label>
+      <ul class="br-sideleft-menu">
+        <li class="br-menu-item">
+          <a href="employeedashboard.html" class="br-menu-link">
+            <i class="menu-item-icon icon ion-ios-home-outline tx-24"></i>
+            <span class="menu-item-label">Dashboard</span> </a
+          ><!-- br-menu-link -->
+        </li>
+
+        <!-- br-menu-item -->
+        <li class="br-menu-item">
+          <a href="#" class="br-menu-link with-sub">
+            <i class="menu-item-icon icon ion-ios-photos-outline tx-20"></i>
+            <span class="menu-item-label">Find Work</span> </a
+          ><!-- br-menu-link -->
+          <ul class="br-menu-sub">
+            <li class="sub-item">
+              <a href="employeedashboard.html" class="sub-link">Find Work</a>
+            </li>
+            <li class="sub-item">
+              <a href="saved-job.html" class="sub-link">Saved Jobs</a>
+            </li>
+            <li class="sub-item">
+              <a href="employee-proposal.html" class="sub-link">Proposal</a>
+            </li>
+            <li class="sub-item">
+              <a href="employee-hired.html" class="sub-link">Hired</a>
+            </li>
+            <li class="sub-item">
+              <a href="my-invites.html" class="sub-link">My-invites</a>
+            </li>
+          </ul>
+        </li>
+        <li class="br-menu-item">
+          <a href="#" class="br-menu-link with-sub">
+            <i class="menu-item-icon icon ion-ios-filing-outline tx-24"></i>
+            <span class="menu-item-label">My Jobs</span> </a
+          ><!-- br-menu-link -->
+          <ul class="br-menu-sub">
+            <li class="sub-item">
+              <a href="employee-myaccount.html" class="sub-link">My-Account</a>
+            </li>
+            <li class="sub-item">
+              <a href="employee-myrating.html" class="sub-link">My-Rating</a>
+            </li>
+            <li class="sub-item">
+              <a href="employee-profile.html" class="sub-link">Profile</a>
+            </li>
+
+            <li class="sub-item">
+              <a href="employeenotifications.html" class="sub-link"
+                >Notifications</a
+              >
+            </li>
+            <li class="sub-item">
+              <a href="employeejobmonitoring.html" class="sub-link"
+                >job Monitoring</a
+              >
+            </li>
+
+            <li class="sub-item">
+              <a href="invoice-creator.html" class="sub-link"
+                >Invoice Creator</a
+              >
+            </li>
+            <li class="sub-item">
+              <a href="employee-contract.html" class="sub-link">Contract</a>
+            </li>
+          </ul>
+        </li>
+        <!-- br-menu-item -->
+        <li class="br-menu-item">
+          <a href="#" class="br-menu-link with-sub">
+            <i class="menu-item-icon ion-clipboard tx-24"></i>
+            <span class="menu-item-label">Reports</span> </a
+          ><!-- br-menu-link -->
+          <ul class="br-menu-sub">
+            <li class="sub-item">
+              <a href="employee-transaction-history.html" class="sub-link"
+                >Transaction-history</a
+              >
+            </li>
+            <li class="sub-item">
+              <a href="employee-all-contracts.html" class="sub-link"
+                >All Contracts</a
+              >
+            </li>
+            <li class="sub-item">
+              <a href="employee-all-invoice.html" class="sub-link"
+                >All invoice</a
+              >
+            </li>
+          </ul>
+        </li>
+
+        <!-- br-menu-item -->
+        <li class="br-menu-item">
+          <a href="message.html" class="br-menu-link">
+            <i class="menu-item-icon icon ion-chatboxes tx-22"></i>
+            <span class="menu-item-label">Messages</span> </a
+          ><!-- br-menu-link -->
+        </li>
+        <!-- br-menu-item -->
+      </ul>
+      <!-- br-sideleft-menu -->
+
+      <br />
+    </div>
+    <!-- br-sideleft -->
+    <!-- ########## END: LEFT PANEL ########## -->
+
+    <!-- ########## START: HEAD PANEL ########## -->
+    <div class="br-header">
+      <div class="br-header-left">
+        <div class="navicon-left hidden-md-down">
+          <a id="btnLeftMenu" href=""><i class="icon ion-navicon-round"></i></a>
+        </div>
+        <div class="navicon-left hidden-lg-up">
+          <a id="btnLeftMenuMobile" href=""
+            ><i class="icon ion-navicon-round"></i
+          ></a>
+        </div>
+        <div class="input-group wd-141 transition">
+          <img src="../img/logo.png" width="130" height="60" alt="" />
+        </div>
+
+        <!-- input-group -->
+      </div>
+
+      <!-- br-header-left -->
+      <div class="br-header-right">
+        <nav class="nav">
+          <div class="dropdown">
+            <a
+              href=""
+              class="nav-link pd-x-7 pos-relative"
+              data-toggle="dropdown"
+            >
+              <i class="icon ion-ios-email-outline tx-24"></i>
+              <!-- start: if statement -->
+              <span
+                class="square-8 bg-danger pos-absolute t-15 r-0 rounded-circle"
+              ></span>
+              <!-- end: if statement -->
+            </a>
+            <div class="dropdown-menu dropdown-menu-header">
+              <div class="dropdown-menu-label">
+                <label>Messages</label>
+                <a href="">+ Add New Message</a>
+              </div>
+              <!-- d-flex -->
+
+              <div class="media-list">
+                <!-- loop starts here -->
+                <a href="" class="media-list-link">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <div>
+                        <p>Donna Seay</p>
+                        <span>2 minutes ago</span>
+                      </div>
+                      <!-- d-flex -->
+                      <p>
+                        A wonderful serenity has taken possession of my entire
+                        soul, like these sweet mornings of spring.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <!-- loop ends here -->
+                <a href="" class="media-list-link read">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <div>
+                        <p>Samantha Francis</p>
+                        <span>3 hours ago</span>
+                      </div>
+                      <!-- d-flex -->
+                      <p>
+                        My entire soul, like these sweet mornings of spring.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <div>
+                        <p>Robert Walker</p>
+                        <span>5 hours ago</span>
+                      </div>
+                      <!-- d-flex -->
+                      <p>
+                        I should be incapable of drawing a single stroke at the
+                        present moment...
+                      </p>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <div>
+                        <p>Larry Smith</p>
+                        <span>Yesterday</span>
+                      </div>
+                      <!-- d-flex -->
+                      <p>
+                        When, while the lovely valley teems with vapour around
+                        me, and the meridian sun strikes...
+                      </p>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <div class="dropdown-footer">
+                  <a href=""
+                    ><i class="fa fa-angle-down"></i> Show All Messages</a
+                  >
+                </div>
+              </div>
+              <!-- media-list -->
+            </div>
+            <!-- dropdown-menu -->
+          </div>
+          <!-- dropdown -->
+          <div class="dropdown">
+            <a
+              href=""
+              class="nav-link pd-x-7 pos-relative"
+              data-toggle="dropdown"
+            >
+              <i class="icon ion-ios-bell-outline tx-24"></i>
+              <!-- start: if statement -->
+              <span
+                class="square-8 bg-danger pos-absolute t-15 r-5 rounded-circle"
+              ></span>
+              <!-- end: if statement -->
+            </a>
+            <div class="dropdown-menu dropdown-menu-header">
+              <div class="dropdown-menu-label">
+                <label>Notifications</label>
+                <a href="">Mark All as Read</a>
+              </div>
+              <!-- d-flex -->
+
+              <div class="media-list">
+                <!-- loop starts here -->
+                <a href="" class="media-list-link read">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <p class="noti-text">
+                        <strong>Suzzeth Bungaos</strong> tagged you and 18
+                        others in a post.
+                      </p>
+                      <span>October 03, 2017 8:45am</span>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <!-- loop ends here -->
+                <a href="" class="media-list-link read">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <p class="noti-text">
+                        <strong>Mellisa Brown</strong> appreciated your work
+                        <strong>The Social Network</strong>
+                      </p>
+                      <span>October 02, 2017 12:44am</span>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <p class="noti-text">
+                        20+ new items added are for sale in your
+                        <strong>Sale Group</strong>
+                      </p>
+                      <span>October 01, 2017 10:20pm</span>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <a href="" class="media-list-link read">
+                  <div class="media">
+                    <img src="https://via.placeholder.com/500" alt="" />
+                    <div class="media-body">
+                      <p class="noti-text">
+                        <strong>Julius Erving</strong> wants to connect with you
+                        on your conversation with <strong>Ronnie Mara</strong>
+                      </p>
+                      <span>October 01, 2017 6:08pm</span>
+                    </div>
+                  </div>
+                  <!-- media -->
+                </a>
+                <div class="dropdown-footer">
+                  <a href=""
+                    ><i class="fa fa-angle-down"></i> Show All Notifications</a
+                  >
+                </div>
+              </div>
+              <!-- media-list -->
+            </div>
+            <!-- dropdown-menu -->
+          </div>
+          <!-- dropdown -->
+          <div class="dropdown">
+            <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
+              <span class="logged-name hidden-md-down">Freelancer </span>
+              <img
+                src="https://via.placeholder.com/500"
+                class="wd-32 rounded-circle"
+                alt=""
+              />
+              <span class="square-10 bg-success"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-header wd-250">
+              <div class="tx-center">
+                <a href=""
+                  ><img
+                    src="https://via.placeholder.com/500"
+                    class="wd-80 rounded-circle"
+                    alt=""
+                /></a>
+                <h6 class="logged-fullname">freelancer Name</h6>
+                <p>youremail@domain.com</p>
+              </div>
+              <hr />
+              <div class="tx-center">
+                <span class="profile-earning-label">Earnings After Taxes</span>
+                <h3 class="profile-earning-amount">
+                  INR 100000<i
+                    class="icon ion-ios-arrow-thin-up tx-success"
+                  ></i>
+                </h3>
+                <span class="profile-earning-text">Based on list price.</span>
+              </div>
+              <hr />
+              <ul class="list-unstyled user-profile-nav">
+                <li>
+                  <a href=""
+                    ><i class="icon ion-ios-person"></i> Edit Profile</a
+                  >
+                </li>
+                <li>
+                  <a href=""><i class="icon ion-ios-gear"></i> Settings</a>
+                </li>
+                <li>
+                  <a href=""><i class="icon ion-ios-download"></i> Downloads</a>
+                </li>
+
+                <li>
+                  <a href=""><i class="icon ion-power"></i> Sign Out</a>
+                </li>
+              </ul>
+            </div>
+            <!-- dropdown-menu -->
+          </div>
+          <!-- dropdown -->
+        </nav>
+        <!-- navicon-right -->
+      </div>
+      <!-- br-header-right -->
+    </div>
+    <!-- br-header -->
+    <!-- ########## END: HEAD PANEL ########## -->
+    <!-- ########## START: MAIN PANEL ########## -->
+    <main>
+      <div class="br-mainpanel br-profile-page">
+        <div class="card shadow-base bd-0 rounded-0 widget-4">
+          <div class="card-header ht-75">
+            <h2 class="tx-white">INVOICE</h2>
+          </div>
+          <!-- card-header -->
+
+          <!-- card-body -->
+        </div>
+        <!-- card -->
+
+        <div class="tab-content br-profile-body">
+          <div class="tab-pane fade active show" id="posts">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="media-list bg-white rounded shadow-base">
+                  <!-- media -->
+                  <div class="media pd-20 pd-xs-30">
+                    <!--profile box-->
+                    <div class="card bd-0 shadow-base">
+                      <div class="card-body pd-md-60">
+                        <div class="col-md-3 m-auto mb-2 text-left none">
+                          <img
+                            src="../img/logo.png"
+                            width="175"
+                            height="80"
+                            alt=""
+                          />
+                        </div>
+                        <div
+                          class="
+                            d-md-flex
+                            justify-content-between
+                            flex-row-reverse
+                          "
+                        >
+                          <h1
+                            class="
+                              mg-b-0
+                              tx-uppercase tx-gray-400 tx-mont tx-bold
+                            "
+                          >
+                            Invoice
+                          </h1>
+                          <div class="mg-t-25 mg-md-t-0">
+                            <input placeholder="Company Name" /><br />
+                            <input placeholder="Company Address" /><br />
+                            <input placeholder="Company Tel" /><br />
+                            <input placeholder="Company email" /><br />
+                          </div>
+                        </div>
+                        <!-- d-flex -->
+
+                        <div class="row mg-t-20">
+                          <div class="col-md">
+                            <label class="tx-uppercase tx-13 tx-bold mg-b-20"
+                              >Billed To</label
+                            ><br />
+                            <input placeholder="BillTo Name" />
+                            <input placeholder="To Address" /><br />
+                            <input placeholder="To tel" /><br />
+                            <input placeholder="To email" />
+                          </div>
+                          <!-- col -->
+                          <div class="col-md">
+                            <label class="tx-uppercase tx-13 tx-bold mg-b-20"
+                              >Invoice Information</label
+                            >
+                            <p class="d-flex justify-content-between mg-b-5">
+                              <span>Invoice No</span>
+                              <input
+                                placeholder="Invoice No"
+                                style="width: 200px"
+                              />
+                            </p>
+                            <p class="d-flex justify-content-between mg-b-5">
+                              <span>Project ID</span>
+                              <input
+                                placeholder="Project Id "
+                                style="width: 200px"
+                              />
+                            </p>
+                            <p class="d-flex justify-content-between mg-b-5">
+                              <span>Issue Date:</span>
+                              <input
+                                placeholder="Issue date"
+                                style="width: 200px"
+                              />
+                            </p>
+                            <p class="d-flex justify-content-between mg-b-5">
+                              <span>Due Date:</span>
+                              <input
+                                placeholder="Due date "
+                                style="width: 200px"
+                              />
+                            </p>
+                          </div>
+                          <!-- col -->
+                        </div>
+                        <!-- row -->
+
+                        <div class="table-responsive mg-t-40">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th class="wd-20p">Type</th>
+                                <th class="wd-40p">Description</th>
+                                <th class="tx-center">QNTY</th>
+                                <th class="tx-right">Unit Price</th>
+                                <th class="tx-right">Amount</th>
+                                <th>
+                                  <a
+                                    type="button"
+                                    onclick="cloneRow()"
+                                    value="Clone Row"
+                                    ><i class="fa fa-plus"></i
+                                  ></a>
+                                    </th>
+                              </tr>
+                            </thead>
+                            <tbody id="tableToModify">
+                              <tr id="rowToClone">
+                                <td><input placeholder="Type" style="width:200px" /></td>
+                                <td class="tx-">
+                                  <input placeholder="Description" style="width:200px" />
+                                </td>
+                                <td
+                                  id=""
+                                  class="tx-center common quantity quant"
+                                >
+                                  <input style="width: 60px" type="text" />
+                                </td>
+                                <td id="" class="tx-right common price units">
+                                  <input style="width: 100px" type="text" />
+                                </td>
+                                <td id="" class="tx-right total">
+                                  <input style="width: 100px" type="text" />
+                                </td>
+                              </tr>
+                            </tbody>
+                            <tbody>
+                              <tr>
+                                <td
+                                  colspan="2"
+                                  rowspan="4"
+                                  class="valign-middle"
+                                >
+                                  <div class="mg-r-20">
+                                    <label
+                                      class="tx-uppercase tx-13 tx-bold mg-b-10"
+                                      >Notes</label
+                                    >
+                                    <p class="tx-13">
+                                      Sed ut perspiciatis unde omnis iste natus
+                                      error sit voluptatem accusantium
+                                      doloremque laudantium, totam rem aperiam,
+                                      eaque ipsa quae ab illo inventore
+                                      veritatis et quasi architecto beatae vitae
+                                      dicta sunt explicabo.
+                                    </p>
+                                  </div>
+                                </td>
+
+                                <td class="tx-right">Sub-Total</td>
+                                <td id="" class="tx-right subtotal">
+                                  <input style="width: 100px" type="text" />
+                                </td>
+                                <td>
+                                  <a
+                                    type="button"
+                                    onclick="deleteRow()"
+                                    value="Clone Row"
+                                    ><i class="fa fa-minus"></i
+                                  ></a>
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tx-right">Tax (18%)</td>
+                                <td id="" class="tx-right tax">
+                                  <input style="width: 100px" type="text" />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td class="tx-right">Discount</td>
+                                <td id="" class="tx-right discount">
+                                  <input style="width: 100px" type="text" />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td
+                                  class="
+                                    tx-right tx-uppercase tx-bold tx-inverse
+                                  "
+                                >
+                                  Total Due
+                                </td>
+                                <td id="" class="tx-right totalamt">
+                                  <input style="width: 100px" type="text" />
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                        <!-- table-responsive -->
+
+                        <hr class="mg-b-60" />
+
+                        <div>
+                          <span class="text-secondary-d1 text-105"
+                            >Thank you for your business</span
+                          >
+                          <a
+                            href="#"
+                            class="
+                              btn btn-info btn-bold
+                              px-4
+                              float-right
+                              mt-3 mt-lg-0
+                            "
+                            >send</a
+                          >
+                        </div>
+                        <div
+                          class="action-buttons __web-inspector-hide-shortcut__"
+                        >
+                          <a
+                            class="btn bg-white btn-light mx-1px text-95"
+                            href="#"
+                            data-title="Print"
+                            onclick="window.print();"
+                          >
+                            <i
+                              class="
+                                mr-1
+                                fa fa-print
+                                text-primary-m1 text-120
+                                w-2
+                              "
+                            ></i>
+                            Print
+                          </a>
+                          <a
+                            class="btn bg-white btn-light mx-1px text-95"
+                            href="#"
+                            data-title="PDF"
+                            onclick="window.exportPDF();"
+                          >
+                            <i
+                              class="
+                                mr-1
+                                fa fa-file-pdf-o
+                                text-danger-m1 text-120
+                                w-2
+                              "
+                            ></i>
+                            Export
+                          </a>
+                        </div>
+                      </div>
+                      <!-- card-body -->
+                    </div>
+                    <!--profilebox-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- br-mainpanel -->
+      <!-- ########## END: MAIN PANEL ########## -->
+    </main>
+    <script src="../lib/jquery/jquery.min.js"></script>
+    <script src="../lib/jquery-ui/ui/widgets/datepicker.js"></script>
+    <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../lib/ion-rangeslider/js/ion.rangeSlider.min.js"></script>
+    <script src="../lib/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+    <script src="../lib/moment/min/moment.min.js"></script>
+    <script src="../lib/peity/jquery.peity.min.js"></script>
+
+    <script src="../js/bracket.js"></script>
+    <script>
+      $(function () {
+        "use strict";
+
+        $(".br-toggle").on("click", function (e) {
+          e.preventDefault();
+          $(this).toggleClass("on");
+        });
+        $("#rangeslider1").ionRangeSlider({
+          max: 30,
+          min: 0,
+        });
+
+        $(document).ready(function () {
+          $(".quantity, .price").change(function () {
+            var parent = $(this).closest("tr");
+            parent
+              .find(".total")
+              .val(
+                parseFloat(parent.find(".quantity").val()) *
+                  parseFloat(parent.find(".price").val())
+              );
+          });
+        });
+
+        // FOR DEMO ONLY
+        // menu collapsed by default during first page load or refresh with screen
+        // having a size between 992px and 1199px. This is intended on this page only
+        // for better viewing of widgets demo.
+        $(window).resize(function () {
+          minimizeMenu();
+        });
+
+        minimizeMenu();
+
+        function minimizeMenu() {
+          if (
+            window.matchMedia("(min-width: 992px)").matches &&
+            window.matchMedia("(max-width: 1199px)").matches
+          ) {
+            // show only the icons and hide left menu label by default
+            $(".menu-item-label,.menu-item-arrow").addClass(
+              "op-lg-0-force d-lg-none"
+            );
+            $("body").addClass("collapsed-menu");
+            $(".show-sub + .br-menu-sub").slideUp();
+          } else if (
+            window.matchMedia("(min-width: 1200px)").matches &&
+            !$("body").hasClass("collapsed-menu")
+          ) {
+            $(".menu-item-label,.menu-item-arrow").removeClass(
+              "op-lg-0-force d-lg-none"
+            );
+            $("body").removeClass("collapsed-menu");
+            $(".show-sub + .br-menu-sub").slideDown();
+          }
+        }
+      });
+    </script>
+  </body>
+</html>
