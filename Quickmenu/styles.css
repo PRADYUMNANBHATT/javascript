@@ -1,0 +1,97 @@
+body {
+  font: system-ui, sans-serif;
+  padding: 2em 0em;
+  border-top: 10px solid #cf3d00;
+  background-color: whitesmoke;
+  background: url("bg.jpg");
+  background-position: center;
+  color: aliceblue;
+}
+
+.price {
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 20px;
+}
+
+.logo1 {
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro",
+    "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  display: block;
+}
+
+.logo {
+  font-size: 5em;
+  font-family: "Pacifico", cursive;
+  display: block;
+}
+
+.logo span {
+  font-family: system-ui, sans-serif;
+}
+
+h3 {
+  font-family: "Pacifico", cursive;
+  color: #e30613;
+}
+
+.v {
+  background-color: #9dbf1a;
+  width: 2em;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  height: 2em;
+  font-size: 0.5em;
+  line-height: 2em;
+  border-radius: 1em;
+  margin-left: 1em;
+}
+.nv {
+  background-color: #e30613;
+  width: 2em;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  height: 2em;
+  font-size: 0.5em;
+  line-height: 2em;
+  border-radius: 1em;
+  margin-left: 1em;
+}
+.cat-text {
+  padding: 5px;
+}
+
+.line {
+  border-bottom: dotted #6f6f6f 1px;
+}
+.top-line {
+  border-top: dotted #6f6f6f 1px;
+}
+.ph {
+  font-size: 15px;
+}
+
+.ph {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(40, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+.menu {
+  color:darkgoldenrod;
+  font-family: "Pacifico", cursive;
+}
+.hide {
+  display: 'none';
+}
