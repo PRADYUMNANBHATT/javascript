@@ -1,0 +1,236 @@
+* {
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  background-color: #1d20268c;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  position: absolute;
+}
+.hero2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #1d20268c;
+  min-height: 100vh;
+  width: 100%;
+  color: #fff;
+  top: 100vh;
+  position: absolute;
+  border: 10px solid wheat;
+  align-items: center;
+}
+.hero2 .box {
+  background-color: #1d20268c;
+  background-image: url(./engine.png);
+  background-size: cover;
+  margin: 1%;
+  width: 50vh;
+
+  height: 50vh;
+}
+nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px 8%;
+  position: fixed;
+  z-index: 2;
+  /* top: 0; */
+  background-color: #1d20268c;
+}
+/* nav .menu-image {
+  width: 25px;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #fff;
+} */
+nav .menu {
+  display: block;
+}
+nav .link {
+  width: 45px;
+  background-color: #fff;
+  height: 3px;
+  margin: 5px 0;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+nav .link2 {
+  width: 25px;
+  background-color: #fff;
+  height: 3px;
+  margin: 5px 0;
+  margin-right: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+nav .logo {
+  width: 160px;
+  margin-right: 20px;
+  color: red;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: Georgia, serif;
+}
+.links {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  left: 0;
+  top: 10%;
+  width: 50vh;
+  height: 100vh;
+  z-index: 2;
+  background: rgb(35, 57, 89);
+  transition: background 0.5s;
+}
+.links li {
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 1055px) {
+  nav ul {
+    display: none;
+  }
+  #btn {
+    display: none;
+  }
+  .lamp-container {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 500px;
+    z-index: 1;
+  }
+  .bike {
+    width: 400px;
+  }
+  .light {
+    position: absolute;
+    top: -60%;
+    left: 30%;
+    width: 1000px;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+}
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+button {
+  display: none;
+  background-color: #efefef;
+  width: 60px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 0.5s;
+}
+button span {
+  display: block;
+  background: #999;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin-left: 2px;
+  transition: background 0.5s, margin-left 0.5s;
+}
+@media only screen and (min-width: 1055px) {
+  .lamp-container {
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 500px;
+    z-index: 1;
+  }
+  .bike {
+    width: 700px;
+  }
+  .light {
+    position: absolute;
+    top: -20%;
+    left: 79%;
+    width: 1000px;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+}
+.text-container {
+  max-width: 600px;
+  margin-top: 15%;
+  margin-left: 50%;
+}
+.text-container h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+.text-container a {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(35, 57, 89);
+  font-size: 18px;
+  padding: 14px 40px;
+  margin-top: 30px;
+  display: inline-block;
+  border-radius: 30px;
+}
+.active {
+  background-color: rgb(21, 213, 72);
+}
+.active span {
+  margin-left: 31px;
+  background: #fff;
+}
+.onoff {
+  opacity: 1;
+}
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1px;
+  background-color: wh;
+  padding: 10px;
+  top: 200vh;
+  width: 100%;
+  position: absolute;
+  background-color: #1d20268c;
+}
+footer > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+
+  background-color: #1d20268c;
+}
+.col1 {
+  grid-row: 1 / span 2;
+  color: red;
+}
+.footer-name {
+  grid-column: 1 / span 4;
+  color: red;
+}
+footer > div p {
+  font-size: 16px;
+}
